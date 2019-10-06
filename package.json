@@ -4,7 +4,7 @@
   "description": "NodeORM is an attempt at replicating Laravel's Eloquent in NodeJS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive"
   },
   "bin": {
     "artisan": "cli/index.js"
@@ -17,7 +17,10 @@
     "dotenv": "^8.1.0",
     "sqlite3": "^4.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roguie/NodeORM.git"

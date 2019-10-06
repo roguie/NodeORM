@@ -94,6 +94,10 @@ module.exports = class Table{
         return this.bigInteger(name, autoIncrement, true);
     }
 
+    unsignedTinyInteger(name, autoIncrement = false){
+        return this.tinyInteger(name, autoIncrement, true);
+    }
+
     float(name, total = 8, places = 2){
         return this.addColumn(new Column({type: 'float', name: name, total: total, places: places}));
     }

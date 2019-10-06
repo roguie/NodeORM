@@ -9,7 +9,7 @@ module.exports = class Schema {
     create(name, callback){
         this.table = new Table(name);
         callback(this.table);
-        console.log(this.table);
+        return this.table;
     }
 
 };

@@ -1,5 +1,1 @@
-exports = function(){
-
-    console.log("Hello from NodeORM");
-
-};
+exports = require('./Migrations/TestMigration');
