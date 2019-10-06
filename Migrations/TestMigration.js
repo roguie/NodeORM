@@ -11,9 +11,8 @@ module.exports = class TestMigration {
 
             table.increments('id');
             table.timestamps();
+            table.text('barry');
             table.string('test', 50);
-
-            console.log(table);
 
         });
     }

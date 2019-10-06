@@ -1,16 +1,29 @@
 {
-  "name": "NodeORM",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@lmaccallum/node-eloquent",
+  "version": "1.0.13",
+  "description": "NodeORM is an attempt at replicating Laravel's Eloquent in NodeJS.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "artisan": "cli/index.js"
+  },
   "keywords": [],
   "author": "Lewis MacCallum",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "commander": "^3.0.2",
     "dotenv": "^8.1.0",
     "sqlite3": "^4.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roguie/NodeORM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roguie/NodeORM/issues"
+  },
+  "homepage": "https://github.com/roguie/NodeORM#readme"
 }
