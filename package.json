@@ -1,6 +1,6 @@
 {
   "name": "@lmaccallum/node-eloquent",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "description": "NodeORM is an attempt at replicating Laravel's Eloquent in NodeJS.",
   "main": "index.js",
   "scripts": {
